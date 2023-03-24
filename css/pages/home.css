@@ -1,0 +1,24 @@
+/* 3rd-party */
+@import '#';
+
+/* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+
+/* components */
+@import '../components/footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* CUSTOM STYLE */
+.text {
+    color: #74C69D;
+    text-transform: uppercase;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 25px;
+}
