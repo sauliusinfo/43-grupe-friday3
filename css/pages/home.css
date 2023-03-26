@@ -4,6 +4,7 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../base/mobile.css';
 
 /* components */
 @import '../components/footer.css';

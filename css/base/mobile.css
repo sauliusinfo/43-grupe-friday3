@@ -1,0 +1,30 @@
+@media (max-width: 1175px) {
+    .conainer {
+        width: 100%;
+        margin-left: 0;
+    }
+    .header-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        /* padding-top: 20px; */
+    }
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+        /* gap: 30px; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 125%;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+}
