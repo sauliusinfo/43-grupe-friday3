@@ -24,6 +24,7 @@
     height: 50px;
     padding-left: 15px;
     /* font-family: 'Work Sans'; */
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -133,4 +134,19 @@
     flex-wrap: wrap;
     gap:60px;
     justify-content: center;
+}
+
+/* section */
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
 }
