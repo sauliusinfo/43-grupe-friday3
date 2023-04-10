@@ -5,10 +5,13 @@
     }
     .header-top {
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        /* flex-wrap: nowrap; */
+        justify-content: center;
         /* background-color: aqua; */
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: blue; */
     }
     .main-nav {
         display: none;
@@ -19,6 +22,14 @@
         flex-direction: column-reverse;
         /* justify-content: center; */
         /* transform: translate(50% 50%); */
+    }
+    .section1 .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column-reverse;
     }
     .left {
         margin-top: 25px;
