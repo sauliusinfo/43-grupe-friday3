@@ -1,35 +1,32 @@
 @media (max-width: 1175px) {
-    .conainer {
-        width: 5%;
-        margin-left: 0;
-    }
     .header-top {
+        width: 100%;
         display: flex;
+        align-items: center;
         justify-content: center;
-        /* background-color: aqua; */
     }
     .logo {
         display: flex;
         justify-content: space-between;
-        /* background-color: blue; */
     }
     .main-nav {
         display: none;
     }
     .hero {
         display: flex;
-        /* flex-direction: column; */
         flex-direction: column-reverse;
-        /* justify-content: center; */
-        /* transform: translate(50% 50%); */
     }
-    .section1 .footer {
+    .section1 {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
     .section2 {
         display: flex;
-        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
     }
     .left {
         margin-top: 25px;
