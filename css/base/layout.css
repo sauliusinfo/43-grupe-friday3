@@ -1,6 +1,7 @@
 .container {
-    width: 1175px;
-    margin-left: calc((100% - 1175px) / 2);
+    max-width: 1175px;
+    /* margin-left: calc((100% - 1175px) / 2); */
+    margin: 0 auto;
 }
 .bg-color {
     background-color: #74C69D;
@@ -23,7 +24,6 @@
     width: 99px;
     height: 50px;
     padding-left: 15px;
-    /* font-family: 'Work Sans'; */
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -34,7 +34,6 @@
 .main-nav {
     display: flex;
     gap: 30px;
-    /* font-family: 'Work Sans'; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -140,13 +139,10 @@
 .section1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
+    justify-content: center;
 }
-
 .section2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
 }
