@@ -36,6 +36,19 @@
         flex-direction: column;
     }
 
+    /* footer */
+    /* footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    footer > .footer-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     /* burger */
     .burger {
         display: flex;
